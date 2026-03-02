@@ -1,0 +1,17 @@
+# DAX Measures Used in Project
+
+## Total Sales
+Total Sales = SUM(Sales[Sales])
+
+## Total Profit
+Total Profit = SUM(Sales[Profit])
+
+## Total Quantity
+Total Quantity = SUM(ORDERS[QUANTITY])
+
+## Profit Margin %
+Profit Margin % = DIVIDE([Total Profit], [Total Sales])
+
+## Sales YTD
+Sales YTD = TOTALYTD([Total Sales], DateTable[Date])
+
