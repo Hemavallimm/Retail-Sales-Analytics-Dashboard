@@ -67,6 +67,7 @@ You can open the PDF file to view the complete dashboard layout and insights.
 
 ## Repository Structure
 
+```
 Retail-Sales-Performance-Dashboard
 │
 ├── DAX Measures
@@ -75,6 +76,7 @@ Retail-Sales-Performance-Dashboard
 ├── Retail_Sales_Performance_Dashboard.pbix
 ├── Retail_Sales_Performance_Dashboard.pdf
 └── SQL Queries
+```
 
 ---
 
